@@ -1,6 +1,6 @@
 import React from 'react'
 
-const sample1 = () => {
+const Sample1 = () => {
   return (
     <div>
       hi
@@ -8,4 +8,4 @@ const sample1 = () => {
   )
 }
 
-export default sample1
+export default Sample1
