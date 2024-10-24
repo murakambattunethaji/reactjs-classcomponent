@@ -1,16 +1,16 @@
 import './App.css';
-import { Sample1 } from './Component/Sample1';
-import { Sample10 } from './Component/Sample10';
-import { Sample11 } from './Component/Sample11';
-import { Sample12 } from './Component/Sample12';
-import { Sample2 } from './Component/Sample2';
-import { Sample3 } from './Component/Sample3';
-import { Sample4 } from './Component/Sample4';
-import { Sample5 } from './Component/Sample5';
-import { Sample6 } from './Component/Sample6';
-import { Sample7 } from './Component/Sample7';
-import { Sample8 } from './Component/Sample8';
-import { Sample9 } from './Component/Sample9';
+import { Sample1 } from '../../clinick-project/src/Component/Sample1';
+import { Sample10 } from '../../clinick-project/src/Component/Sample10';
+import { Sample11 } from '../../clinick-project/src/Component/Sample11';
+import { Sample12 } from '../../clinick-project/src/Component/Sample12';
+import { Sample2 } from '../../clinick-project/src/Component/Sample2';
+import { Sample3 } from '../../clinick-project/src/Component/Sample3';
+import { Sample4 } from '../../clinick-project/src/Component/Sample4';
+import { Sample5 } from '../../clinick-project/src/Component/Sample5';
+import { Sample6 } from '../../clinick-project/src/Component/Sample6';
+import { Sample7 } from '../../clinick-project/src/Component/Sample7';
+import { Sample8 } from '../../clinick-project/src/Component/Sample8';
+import { Sample9 } from '../../clinick-project/src/Component/Sample9';
 
 function App() {
   return (
