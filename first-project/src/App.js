@@ -2,6 +2,7 @@ import './App.css';
 import { Sample1 } from './Component/Sample1';
 import { Sample10 } from './Component/Sample10';
 import { Sample11 } from './Component/Sample11';
+import { Sample12 } from './Component/Sample12';
 import { Sample2 } from './Component/Sample2';
 import { Sample3 } from './Component/Sample3';
 import { Sample4 } from './Component/Sample4';
@@ -15,16 +16,17 @@ function App() {
   return (
     <div className="App">
       <Sample1 />
-      <Sample2/>
-      <Sample3/>
-      <Sample4/>
-      <Sample5/>
-      <Sample6/>
-      <Sample7/>
-      <Sample8/>
-      <Sample9/>
-      <Sample10/>
-      <Sample11/>
+      <Sample2 />
+      <Sample3 />
+      <Sample4 />
+      <Sample5 />
+      <Sample6 />
+      <Sample7 />
+      <Sample8 />
+      <Sample9 />
+      {/* <Sample10 /> */}
+      <Sample11 />
+      <Sample12/>
     </div>
   );
 }

@@ -20,7 +20,7 @@ export class Sample3 extends Component {
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse"
                 >
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon">click</span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto p-4 p-lg-0">
