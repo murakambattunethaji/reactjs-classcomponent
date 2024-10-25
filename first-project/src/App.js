@@ -1,4 +1,5 @@
 import './App.css';
+// import '../src/css/style.css'
 import { Sample1 } from '../src/Component/Sample1';
 // import { Sample10 } from '../src/Sample10';
 import { Sample11 } from '../src/Component/Sample11';

@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import '../public/css/style.css'
+// import '../public/css/bootstrap.min.css'
 import { Sample1 } from './Component/Sample1'
 import { Sample2 } from './Component/Sample2'
 import { Sample3 } from './Component/Sample3'
