@@ -58,57 +58,57 @@ export class Main extends Component {
 
                 <section class="slick-slideshow">
                     <div class="slick-custom">
-                        <img src="images/slideshow/medium-shot-business-women-high-five.jpeg" class="img-fluid" alt=""/>
+                        <img src="images/slideshow/medium-shot-business-women-high-five.jpeg" class="img-fluid" alt="" />
 
-                            <div class="slick-bottom">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-10">
-                                            <h1 class="slick-title">Cool Fashion</h1>
+                        <div class="slick-bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-10">
+                                        <h1 class="slick-title">Cool Fashion</h1>
 
-                                            <p class="lead text-white mt-lg-3 mb-lg-5">Little fashion template comes with total 8 HTML pages provided by Tooplate website.</p>
+                                        <p class="lead text-white mt-lg-3 mb-lg-5">Little fashion template comes with total 8 HTML pages provided by Tooplate website.</p>
 
-                                            <a href="about.html" class="btn custom-btn">Learn more about us</a>
-                                        </div>
+                                        <a href="about.html" class="btn custom-btn">Learn more about us</a>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
 
                     <div class="slick-custom">
-                        <img src="images/slideshow/team-meeting-renewable-energy-project.jpeg" class="img-fluid" alt=""/>
+                        <img src="images/slideshow/team-meeting-renewable-energy-project.jpeg" class="img-fluid" alt="" />
 
-                            <div class="slick-bottom">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-10">
-                                            <h1 class="slick-title">New Design</h1>
+                        <div class="slick-bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-10">
+                                        <h1 class="slick-title">New Design</h1>
 
-                                            <p class="lead text-white mt-lg-3 mb-lg-5">Please share this Little Fashion template to your friends. Thank you for supporting us.</p>
+                                        <p class="lead text-white mt-lg-3 mb-lg-5">Please share this Little Fashion template to your friends. Thank you for supporting us.</p>
 
-                                            <a href="product.html" class="btn custom-btn">Explore products</a>
-                                        </div>
+                                        <a href="product.html" class="btn custom-btn">Explore products</a>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
 
                     <div class="slick-custom">
-                        <img src="images/slideshow/two-business-partners-working-together-office-computer.jpeg" class="img-fluid" alt=""/>
+                        <img src="images/slideshow/two-business-partners-working-together-office-computer.jpeg" class="img-fluid" alt="" />
 
-                            <div class="slick-bottom">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-10">
-                                            <h1 class="slick-title">Talk to us</h1>
+                        <div class="slick-bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-10">
+                                        <h1 class="slick-title">Talk to us</h1>
 
-                                            <p class="lead text-white mt-lg-3 mb-lg-5">Tooplate is one of the best HTML CSS template websites for everyone.</p>
+                                        <p class="lead text-white mt-lg-3 mb-lg-5">Tooplate is one of the best HTML CSS template websites for everyone.</p>
 
-                                            <a href="contact.html" class="btn custom-btn">Work with us</a>
-                                        </div>
+                                        <a href="contact.html" class="btn custom-btn">Work with us</a>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
 
                 </section>
@@ -143,12 +143,12 @@ export class Main extends Component {
 
                                         <div class="row">
                                             <div class="col-lg-7 col-12">
-                                                <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" class="img-fluid" alt=""/>
+                                                <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" class="img-fluid" alt="" />
                                             </div>
 
                                             <div class="col-lg-5 col-12">
                                                 <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                                    <h4 class="mb-3">Good <span>Design</span> <br/>Ideas for <span>your</span> fashion</h4>
+                                                    <h4 class="mb-3">Good <span>Design</span> <br />Ideas for <span>your</span> fashion</h4>
 
                                                     <p>Little Fashion templates comes with <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
 
@@ -196,7 +196,7 @@ export class Main extends Component {
                                     <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
                                         <div class="row">
                                             <div class="col-lg-7 col-12">
-                                                <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" class="img-fluid" alt=""/>
+                                                <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" class="img-fluid" alt="" />
                                             </div>
 
                                             <div class="col-lg-5 col-12">
@@ -213,13 +213,13 @@ export class Main extends Component {
                                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
 
                                                             //  style="width: 90%;"
-                                                             ></div>
+                                                            ></div>
                                                         </div>
 
                                                         <strong>Design & Stragety</strong>
                                                         <span class="float-end">70%</span>
                                                         <div class="progress">
-                                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" 
+                                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
 
                                                             // style="width: 70%;"
                                                             ></div>
@@ -228,7 +228,7 @@ export class Main extends Component {
                                                         <strong>Online Platform</strong>
                                                         <span class="float-end">80%</span>
                                                         <div class="progress">
-                                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" 
+                                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
 
                                                             // style="width: 80%;"
                                                             >
@@ -261,7 +261,7 @@ export class Main extends Component {
                         <div class="row align-items-center">
 
                             <div class="col-lg-6 col-12">
-                                <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt=""/>
+                                <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt="" />
                             </div>
 
                             <div class="col-lg-6 col-12">
@@ -293,7 +293,7 @@ export class Main extends Component {
                             <div class="col-lg-4 col-12 mb-3">
                                 <div class="product-thumb">
                                     <a href="product-detail.html">
-                                        <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt=""/>
+                                        <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="" />
                                     </a>
 
                                     <div class="product-top d-flex">
@@ -319,7 +319,7 @@ export class Main extends Component {
                             <div class="col-lg-4 col-12 mb-3">
                                 <div class="product-thumb">
                                     <a href="product-detail.html">
-                                        <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt=""/>
+                                        <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="" />
                                     </a>
 
                                     <div class="product-top d-flex">
