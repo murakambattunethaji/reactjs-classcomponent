@@ -8,9 +8,8 @@ export class Sample12 extends Component {
 
     render() {
         return (
-            <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top">
-                <i className="bi bi-arrow-up"></i>
-            </a>
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
         )
     }
 }
