@@ -8,33 +8,75 @@ export class Sample3 extends Component {
     render() {
         return (
 
-            <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
-                <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-                    <h1 class="m-0 text-primary"><i class="far fa-hospital me-3"></i>Klinik</h1>
-                </a>
-                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto p-4 p-lg-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                                <a href="feature.html" class="dropdown-item">Feature</a>
-                                <a href="team.html" class="dropdown-item">Our Doctor</a>
-                                <a href="appointment.html" class="dropdown-item">Appointment</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
+            <header class="header" >
+                <div class="topbar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-5 col-12">
+                                <ul class="top-link">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Doctors</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-7 col-12">
+                                <ul class="top-contact">
+                                    <li><i class="fa fa-phone"></i>+880 1234 56789</li>
+                                    <li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">support@yourmail.com</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
                 </div>
-            </nav>
+
+                <div class="header-inner">
+                    <div class="container">
+                        <div class="inner">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-12">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="img/logo.png" alt="#" /></a>
+                                    </div>
+
+                                    <div class="mobile-nav"></div>
+                                </div>
+                                <div class="col-lg-7 col-md-9 col-12">
+                                    <div class="main-menu">
+                                        <nav class="navigation">
+                                            <ul class="nav menu">
+                                                <li class="active"><a href="#">Home <i class="icofont-rounded-down"></i></a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="index.html">Home Page 1</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Doctos </a></li>
+                                                <li><a href="#">Services </a></li>
+                                                <li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="404.html">404 Error</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Blogs <i class="icofont-rounded-down"></i></a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="blog-single.html">Blog Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact.html">Contact Us</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-12">
+                                    <div class="get-quote">
+                                        <a href="appointment.html" class="btn">Book Appointment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
 
         )
     }

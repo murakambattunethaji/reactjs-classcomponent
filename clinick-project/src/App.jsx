@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import '../public/css/style.css'
+
 // import '../public/css/bootstrap.min.css'
 import { Sample1 } from './Component/Sample1'
 import { Sample2 } from './Component/Sample2'
@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Sample1/>
-      <Sample2/>
+      {/* <Sample2/>
       <Sample3/>
       <Sample4/>
       <Sample5/>
@@ -29,7 +29,7 @@ function App() {
       <Sample8/>
       <Sample9/>
       <Sample11/>
-      <Sample12/>
+      <Sample12/> */}
     </>
   )
 }
