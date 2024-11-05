@@ -7,30 +7,63 @@ export class Sample5 extends Component {
 
     render() {
         return (
-            <div class="container-xxl py-5">
+            <section class="schedule">
                 <div class="container">
-                    <div class="row g-5">
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-flex flex-column">
-                                <img class="img-fluid rounded w-75 align-self-end" src="img/about-1.jpg" alt="" />
-                                <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/about-2.jpg" alt=""
-                                //  style="margin-top: -25%;"
-                                />
+                    <div class="schedule-inner">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 ">
+                                <div class="single-schedule first">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i class="fa fa-ambulance"></i>
+                                        </div>
+                                        <div class="single-content">
+                                            <span>Lorem Amet</span>
+                                            <h4>Emergency Cases</h4>
+                                            <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+                                            <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                            <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
-                            <h1 class="mb-4">Why You Should Trust Us? Get Know About Us!</h1>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
-                            <p><i class="far fa-check-circle text-primary me-3"></i>Quality health care</p>
-                            <p><i class="far fa-check-circle text-primary me-3"></i>Only Qualified Doctors</p>
-                            <p><i class="far fa-check-circle text-primary me-3"></i>Medical Research Professionals</p>
-                            <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="single-schedule middle">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i class="icofont-prescription"></i>
+                                        </div>
+                                        <div class="single-content">
+                                            <span>Fusce Porttitor</span>
+                                            <h4>Doctors Timetable</h4>
+                                            <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+                                            <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-12">
+                                <div class="single-schedule last">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i class="icofont-ui-clock"></i>
+                                        </div>
+                                        <div class="single-content">
+                                            <span>Donec luctus</span>
+                                            <h4>Opening Hours</h4>
+                                            <ul class="time-sidual">
+                                                <li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
+                                                <li class="day">Saturday <span>9.00-18.30</span></li>
+                                                <li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+                                            </ul>
+                                            <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

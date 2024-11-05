@@ -1,79 +1,70 @@
-// import { Component } from "react";
-// import OwlCarousel from 'react-owl-carousel'
+import { Component } from "react";
 
-// export class Sample10 extends Component {
+export class Sample10 extends Component {
 
-//     constructor() {
-//         super()
-//     }
-
+    constructor() {
+        super()
+    }
 
 
-//     render() {
-//         const testimonials = [
-//             {
-//                 image: 'img/testimonial-1.jpg',
-//                 text: 'Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.',
-//                 name: 'Patient Name',
-//                 profession: 'Profession',
-//             },
-//             {
-//                 image: 'img/testimonial-2.jpg',
-//                 text: 'Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.',
-//                 name: 'Patient Name',
-//                 profession: 'Profession',
-//             },
-//             {
-//                 image: 'img/testimonial-3.jpg',
-//                 text: 'Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.',
-//                 name: 'Patient Name',
-//                 profession: 'Profession',
-//             },
-//         ];
-//         return (
 
-//             <div class="container-xxl py-5">
-//                 <div class="container">
-//                     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
-//                     //  style="max-width: 600px;"
-//                      >
-//                         <p class="d-inline-block border rounded-pill py-1 px-4">Testimonial</p>
-//                         <h1>What Say Our Patients!</h1>
-//                     </div>
-//                     <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-//                         <div class="testimonial-item text-center">
-//                             <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg"
-//                             //  style="width: 100px; height: 100px;"
-//                              />
-//                                 <div class="testimonial-text rounded text-center p-4">
-//                                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-//                                     <h5 class="mb-1">Patient Name</h5>
-//                                     <span class="fst-italic">Profession</span>
-//                                 </div>
-//                         </div>
-//                         <div class="testimonial-item text-center">
-//                             <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg"
-//                             //  style="width: 100px; height: 100px;"
-//                              />
-//                                 <div class="testimonial-text rounded text-center p-4">
-//                                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-//                                     <h5 class="mb-1">Patient Name</h5>
-//                                     <span class="fst-italic">Profession</span>
-//                                 </div>
-//                         </div>
-//                         <div class="testimonial-item text-center">
-//                             <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg" 
-//                             // style="width: 100px; height: 100px;"
-//                             />
-//                                 <div class="testimonial-text rounded text-center p-4">
-//                                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-//                                     <h5 class="mb-1">Patient Name</h5>
-//                                     <span class="fst-italic">Profession</span>
-//                                 </div>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//         )
-//     }
-// }
+    render() {
+
+        return (
+
+            <section class="portfolio section" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title">
+                                <h2>We Maintain Cleanliness Rules Inside Our Hospital</h2>
+                                <img src="img/section-img.png" alt="#" />
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-12">
+                            <div class="owl-carousel portfolio-slider">
+                                <div class="single-pf">
+                                    <img src="img/pf1.jpg" alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                                <div class="single-pf">
+                                    <img src="img/pf2.jpg" alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                                <div class="single-pf">
+                                    <img src="img/pf3.jpg" alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                                <div class="single-pf">
+                                    <img src="img/pf4.jpg" alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                                <div class="single-pf">
+                                    <img src="img/pf1.jpg" alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                                <div class="single-pf">
+                                    <img src="img/pf2.jpg" alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                                <div class="single-pf">
+                                    <img src="img/pf3.jpg" alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                                <div class="single-pf">
+                                    <img src="img/pf4.jpg" alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        )
+    }
+}

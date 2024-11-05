@@ -7,90 +7,48 @@ export class Sample6 extends Component {
 
     render() {
         return (
-            <div class="container-xxl py-5">
+            <section class="Feautes section">
                 <div class="container">
-                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" 
-                    // style="max-width: 600px;"
-                    >
-                        <p class="d-inline-block border rounded-pill py-1 px-4">Services</p>
-                        <h1>Health Care Solutions</h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title">
+                                <h2>We Are Always Ready to Help You & Your Family</h2>
+                                <img src="img/section-img.png" alt="#" />
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row g-4">
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item bg-light rounded h-100 p-5">
-                                <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" 
-                                // style="width: 65px; height: 65px;"
-                                >
-                                    <i class="fa fa-heartbeat text-primary fs-4"></i>
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="single-features">
+                                <div class="signle-icon">
+                                    <i class="icofont icofont-ambulance-cross"></i>
                                 </div>
-                                <h4 class="mb-3">Cardiology</h4>
-                                <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                                <h3>Emergency Help</h3>
+                                <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="service-item bg-light rounded h-100 p-5">
-                                <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                                //  style="width: 65px; height: 65px;"
-                                 >
-                                    <i class="fa fa-x-ray text-primary fs-4"></i>
+                        <div class="col-lg-4 col-12">
+                            <div class="single-features">
+                                <div class="signle-icon">
+                                    <i class="icofont icofont-medical-sign-alt"></i>
                                 </div>
-                                <h4 class="mb-3">Pulmonary</h4>
-                                <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                                <h3>Enriched Pharmecy</h3>
+                                <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="service-item bg-light rounded h-100 p-5">
-                                <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                                //  style="width: 65px; height: 65px;"
-                                >
-                                    <i class="fa fa-brain text-primary fs-4"></i>
+                        <div class="col-lg-4 col-12">
+                            <div class="single-features last">
+                                <div class="signle-icon">
+                                    <i class="icofont icofont-stethoscope"></i>
                                 </div>
-                                <h4 class="mb-3">Neurology</h4>
-                                <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item bg-light rounded h-100 p-5">
-                                <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                                //  style="width: 65px; height: 65px;"
-                                 >
-                                    <i class="fa fa-wheelchair text-primary fs-4"></i>
-                                </div>
-                                <h4 class="mb-3">Orthopedics</h4>
-                                <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="service-item bg-light rounded h-100 p-5">
-                                <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                                //  style="width: 65px; height: 65px;"
-                                 >
-                                    <i class="fa fa-tooth text-primary fs-4"></i>
-                                </div>
-                                <h4 class="mb-3">Dental Surgery</h4>
-                                <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="service-item bg-light rounded h-100 p-5">
-                                <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" 
-                                // style="width: 65px; height: 65px;"
-                                >
-                                    <i class="fa fa-vials text-primary fs-4"></i>
-                                </div>
-                                <h4 class="mb-3">Laboratory</h4>
-                                <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                                <h3>Medical Treatment</h3>
+                                <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

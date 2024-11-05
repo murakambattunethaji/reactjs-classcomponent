@@ -7,80 +7,58 @@ export class Sample8 extends Component {
 
     render() {
         return (
-            <div class="container-xxl py-5">
+            <section class="why-choose section" >
                 <div class="container">
-                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                        <p class="d-inline-block border rounded-pill py-1 px-4">Doctors</p>
-                        <h1>Our Experience Doctors</h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title">
+                                <h2>We Offer Different Services To Improve Your Health</h2>
+                                <img src="img/section-img.png" alt="#" />
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="img/team-1.jpg" alt=""/>
-                                </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>Doctor Name</h5>
-                                    <p class="text-primary">Department</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="choose-left">
+                                <h3>Who We Are</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo. </p>
+                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="list">
+                                            <li><i class="fa fa-caret-right"></i>Maecenas vitae luctus nibh. </li>
+                                            <li><i class="fa fa-caret-right"></i>Duis massa massa.</li>
+                                            <li><i class="fa fa-caret-right"></i>Aliquam feugiat interdum.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul class="list">
+                                            <li><i class="fa fa-caret-right"></i>Maecenas vitae luctus nibh. </li>
+                                            <li><i class="fa fa-caret-right"></i>Duis massa massa.</li>
+                                            <li><i class="fa fa-caret-right"></i>Aliquam feugiat interdum.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="img/team-2.jpg" alt=""/>
-                                </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>Doctor Name</h5>
-                                    <p class="text-primary">Department</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                        <div class="col-lg-6 col-12">
+                            <div class="choose-right">
+                                <div class="video-image">
+                                    <div class="promo-video">
+                                        <div class="waves-block">
+                                            <div class="waves wave-1"></div>
+                                            <div class="waves wave-2"></div>
+                                            <div class="waves wave-3"></div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="img/team-3.jpg" alt=""/>
-                                </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>Doctor Name</h5>
-                                    <p class="text-primary">Department</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="img/team-4.jpg" alt=""/>
-                                </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>Doctor Name</h5>
-                                    <p class="text-primary">Department</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=RFVXy6CRVR4" class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }
