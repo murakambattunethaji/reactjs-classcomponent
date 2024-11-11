@@ -1,4 +1,5 @@
 import { Component } from "react";
+import imgg from "./imginfo.json"
 
 export class Info extends Component {
     constructor() {
@@ -55,25 +56,15 @@ export class Info extends Component {
                         <div class="col-md-4 col-lg-3">
                             <div class="info_social">
                                 <div>
-                                    <a href="">
-                                        <img src="images/facebook-logo-button.png" alt="" />
+                                    {imgg.map((value)=>{
+                                        return<a href="">
+                                        <img src={value.img} alt="" />
                                     </a>
+
+                                    })}
+                                    
                                 </div>
-                                <div>
-                                    <a href="">
-                                        <img src="images/twitter-logo-button.png" alt="" />
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="">
-                                        <img src="images/linkedin.png" alt="" />
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="">
-                                        <img src="images/instagram.png" alt="" />
-                                    </a>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
