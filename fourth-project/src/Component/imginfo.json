@@ -10,5 +10,33 @@
     },
     {
         "img":"images/instagram.png"
+    },
+        
+    
+    {
+        "link":"about.html",
+        "name":"About"
+
+    },
+    {
+        "link":"fruit.html",
+        "name":"Fruit"
+
+    },
+    {
+        "link":"testimonial.html",
+        "name":"testimonial"
+
+    },
+
+    {
+        "link":"contact.html",
+        "name":"contact"
+
+    },
+    {
+        "link":"#",
+        "name":"Login"
+
     }
 ]

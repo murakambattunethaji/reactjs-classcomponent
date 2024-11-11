@@ -1,4 +1,5 @@
 import { Component } from "react";
+import navbar from './imginfo.json'
 
 export class Nav extends Component{
     constructor(){
