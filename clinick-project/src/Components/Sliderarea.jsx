@@ -8,8 +8,8 @@ export class Sliderarea extends Component {
         return <section class="slider">
             <div class="hero-slider">
                 <div class="single-slider"
-                //  style="background-image:url('img/slider2.jpg')"
-                 >
+                    style={{ backgroundImage: `url('img/slider2.jpg')` }}
+                >
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-7">
@@ -25,9 +25,10 @@ export class Sliderarea extends Component {
                         </div>
                     </div>
                 </div>
-              
-                <div class="single-slider" 
-                // style="background-image:url('img/slider.jpg')"
+
+                <div class="single-slider"
+                    style={{ backgroundImage: `url('img/slider.jpg')` }}
+
                 >
                     <div class="container">
                         <div class="row">
@@ -44,9 +45,9 @@ export class Sliderarea extends Component {
                         </div>
                     </div>
                 </div>
-               
-                <div class="single-slider" 
-                // style="background-image:url('img/slider3.jpg')"
+
+                <div class="single-slider"
+                    style={{ backgroundImage: `url('img/slider3.jpg')` }}
                 >
                     <div class="container">
                         <div class="row">
