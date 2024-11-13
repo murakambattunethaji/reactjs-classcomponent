@@ -1,9 +1,11 @@
 // import './App.css';
+import React from 'react';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import { Getprobutton } from './Components/Getprobutton';
 import { Headerarea } from './Components/Headerarea';
-import { Preloder } from './Components/Preloder';
 import { Pricingtable } from './Components/Pricingtable';
-import { Sliderarea } from './Components/Sliderarea';
 import { Startappoint } from './Components/Startappoint';
 import { Startblogarea } from './Components/Startblogarea';
 import { Startcalltoaction } from './Components/Startcalltoaction';
@@ -22,23 +24,33 @@ import { Startwhychoose } from './Components/Startwhychoose';
 function App() {
   return (
     <div className="App">
-      {/* <Preloder /> */}
+
       <Getprobutton/>
       <Headerarea/>
-      <Sliderarea/>
-      <Startshudulearea/>
       <Startfeature/>
       <Startfunfact/>
       <Startwhychoose/>
       <Startcalltoaction/>
       <Startfortpolio/>
-      <Startservice/>
-      <Pricingtable/>
+      {/* <Startservice/> */}
+      {/* <Pricingtable/> */}
       <Startblogarea/>
-      <Startclients/>
+      {/* <Startclients/> */}
       <Startappoint/>
       <Startnewletterarea/>
-      <Startfooter/>
+      
+
+
+      {/* <Routes>
+        <Route path="/" element={<Headerarea />} />
+        <Route path="/about" element={<Sliderarea />} />
+        <Route path="/startappoint" element={<Startappoint />} />
+      </Routes> */}
+
+
+
+
+<Startfooter/>
     </div>
   );
 }
