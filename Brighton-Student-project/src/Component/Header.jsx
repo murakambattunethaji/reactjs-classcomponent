@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class Header extends Component {
     constructor() {
@@ -22,19 +23,41 @@ export class Header extends Component {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                                 <ul class="navbar-nav  ">
+
+
+
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="index.html">
-                                            Home <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="Home">
+                                            <Link to={'Home'}>
+                                                Home
+                                            </Link></a>
                                     </li>
+
+
+
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.html"> About </a>
+                                        <a class="nav-link" href="About"> <Link to={'About'}>
+                                            About
+                                        </Link> </a>
                                     </li>
+
+
+
                                     <li class="nav-item">
-                                        <a class="nav-link" href="program.html"> Programs </a>
+                                        <a class="nav-link" href="Client"> <Link to={'Client'}>
+                                            Client
+                                        </Link>  </a>
                                     </li>
+
+
+
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html"> Contact us</a>
+                                        <a class="nav-link" href="Contact"> <Link to={'Contact'}>
+                                            Contact Us
+                                        </Link> </a>
                                     </li>
+
+
                                 </ul>
                             </div>
                         </div>
